@@ -1,0 +1,62 @@
+@media (max-width:1309px) {
+    .nav-con{
+        padding: 1rem;
+    }
+    .search-bar-nav-con{
+        width: 30rem;
+        padding: 0.7rem 0.3rem;
+    }
+    .filters-attractions-con select, .enter-dates-con{
+        padding: 0.5rem;
+    }
+}
+@media (max-width:965px) {
+    .search-bar-nav-con{
+        width: 25rem;
+        padding: 0.7rem 0.3rem;
+    }
+    .enter-dates-con > h2{
+        font-size: 1rem;
+    }
+    .gen-grid-con{
+        grid-template-columns: 50% 50%;
+        
+      }
+}
+@media (max-width:855px) {
+    .search-bar-nav-con{
+        width: 20rem;
+        padding: 0.5rem 0.3rem;
+    }
+    .gen-grid-con{
+        grid-template-columns: 55% 45%;
+        
+      }
+}
+@media (max-width:775px) {
+    .search-bar-nav-con{
+        width: 17rem;
+    }
+}
+@media (max-width:727px) {
+    .filters-attractions-con{
+        display: none;
+    }
+    .mobile-icon-con{
+        display: block;
+        
+    }
+    .bar-icon{
+        font-size: 1.5rem;
+    }
+    .gen-grid-con{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:479px) {
+    .enter-dates-con{
+        display: none;
+    }
+
+}
